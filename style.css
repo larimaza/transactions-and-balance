@@ -5,14 +5,14 @@ body {
 	line-height: 1.5;
 }
 .main {
-    background: #fff;
-    border: 1px solid #e5e5e5;
+	background: #fff;
+	border: 1px solid #e5e5e5;
 	bottom: 0;
 	left: 0;
 	margin: 84px auto 0;
 	max-width: 420px;
 	min-height: 450px;
-    padding: 33px 27px 80px 27px;
+	padding: 33px 27px 80px 27px;
 	position: relative;
 	right: 0;
 	top: 0;
@@ -23,14 +23,14 @@ body {
 	width: 191.25px;
 }
 .logo {
-    height: 49.5px;
+	height: 49.5px;
 }
 .table-outer {
 	width: 100%;
 }
 .trades-title, .balance-title {
 	background: #f3f5f2;
-    border-bottom: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
 	color: #7f7c76;	
 	font-size: 1.125em;	
 	font-weight: 600;
@@ -47,42 +47,42 @@ body {
 .trades-content li, .balance-content li {
 	border-bottom: 1px solid #efefef;
 	height: 38px;
-    line-height: 38px;
-    padding-left: 16px;	
+	line-height: 38px;
+	padding-left: 16px;	
 }
 .input-trade-outer {
 	background: #f3f5f2;
-    border-bottom: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
 }
 .input-trade-label {
-    box-sizing: border-box;
-    color: #7f7c76;
-    display: inline-block;
-    font-size: 1.125em;
-    font-weight: 600;
-    height: 54px;
-    padding: 12px 0 0 16px;
-    text-align: left;
+	box-sizing: border-box;
+	color: #7f7c76;
+	display: inline-block;
+	font-size: 1.125em;
+	font-weight: 600;
+	height: 54px;
+	padding: 12px 0 0 16px;
+	text-align: left;
 }
 .input-trade {
-    border: 1px solid #ccc;	
+	border: 1px solid #ccc;	
 	border-radius: 3px;
-    height: 26px;
-    margin-left: 17px;
-    width: 100px;    
+	height: 26px;
+	margin-left: 17px;
+	width: 100px;    
 }
 .btn-add-trade {
 	background: #3dca9c;
 	border: none;
 	border-radius: 3px;
-    box-shadow: 0 2px rgba(0,0,0,0.05);
+	box-shadow: 0 2px rgba(0,0,0,0.05);
 	color: #fff;
 	cursor: pointer;
 	font-size: 1.125em;
 	font-weight: 600;
-    height: 30px;
-    margin-left: 17px;
-    width: 100px; 
+	height: 30px;
+	margin-left: 17px;
+	width: 100px; 
 }
 @media screen and (max-width: 473px) {
 	.input-trade-outer {
