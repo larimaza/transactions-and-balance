@@ -1,0 +1,109 @@
+body {
+	background: #eff1ee;
+	font-family: "Source Sans Pro", "Trebuchet MS", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.main {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+	bottom: 0;
+	left: 0;
+	margin: 84px auto 0;
+	max-width: 420px;
+	min-height: 450px;
+    padding: 33px 27px 80px 27px;
+	position: relative;
+	right: 0;
+	top: 0;
+}
+.top-logo {
+	display: block;
+	margin: 30px auto 50px;
+	width: 191.25px;
+}
+.logo {
+    height: 49.5px;
+}
+.table-outer {
+	width: 100%;
+}
+.trades-title, .balance-title {
+	background: #f3f5f2;
+    border-bottom: 1px solid #eaeaea;
+	color: #7f7c76;	
+	font-size: 1.125em;	
+	font-weight: 600;
+	height: 54px;
+	padding-left: 16px;
+	text-align: left;
+	vertical-align: middle;
+}
+.balance-content {
+	color: #4ac4d5;
+	font-size: 1.125em;
+	font-weight: 600;
+}
+.trades-content li, .balance-content li {
+	border-bottom: 1px solid #efefef;
+	height: 38px;
+    line-height: 38px;
+    padding-left: 16px;	
+}
+.input-trade-outer {
+	background: #f3f5f2;
+    border-bottom: 1px solid #eaeaea;
+}
+.input-trade-label {
+    box-sizing: border-box;
+    color: #7f7c76;
+    display: inline-block;
+    font-size: 1.125em;
+    font-weight: 600;
+    height: 54px;
+    padding: 12px 0 0 16px;
+    text-align: left;
+}
+.input-trade {
+    border: 1px solid #ccc;	
+	border-radius: 3px;
+    height: 26px;
+    margin-left: 17px;
+    width: 100px;    
+}
+.btn-add-trade {
+	background: #3dca9c;
+	border: none;
+	border-radius: 3px;
+    box-shadow: 0 2px rgba(0,0,0,0.05);
+	color: #fff;
+	cursor: pointer;
+	font-size: 1.125em;
+	font-weight: 600;
+    height: 30px;
+    margin-left: 17px;
+    width: 100px; 
+}
+@media screen and (max-width: 473px) {
+	.input-trade-outer {
+		height: 143px;
+	}
+	.input-trade-label {
+		display: block;
+	}
+	.input-trade {
+		display: block;
+		margin-left: 0;
+		margin-top: 13px;
+		position: absolute; /* Fix margin-collapsing bug */
+	}
+	.btn-add-trade {
+		margin-top: 36px;
+	}
+}
+.credit-color {
+	color: #36b58c;
+}
+.debit-color {
+	color: #ca3d6b;
+}

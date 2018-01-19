@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+
+	<body>
+
+		<div>
+			<main class="main">
+				<a href="https://magnetis.com.br/" target="blank" class="top-logo">
+					<img class="logo" src="https://magnetis-herokuapp-com.global.ssl.fastly.net/assets/magnetis-ed654d58bf7f9492e5843499137bfe163717b8513ea8a2b5b2f17b6e7d247cef.svg">
+				</a>
+				<table class="table-outer">
+					<thead>
+						<tr>
+							<th class="trades-title">Extrato de transações:</th>
+						</tr>
+					</thead>	
+					<tbody>
+						<tr>
+							<td>
+								<ul class="trades-content">
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td class="balance-title">Saldo atualizado:</td>
+						</tr>
+						<tr>
+							<td>
+								<ul class="balance-content">
+								</ul>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<form class="input-trade-outer">
+					<label class="input-trade-label">Inserir transação:
+						<input class="input-trade" type="number" step=".01">
+					</label>
+					<button class="btn-add-trade" type="submit">Salvar</button>
+				</form>
+			</main>
+		</div>
+
+	</body>
+
+	<script src="balance.js"></script>
+
+</html>
